@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+15 September 2018, Bangkok Thailand
 
 ### Project Title
-Replace the Project Title
+bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+analyse bike share data in three US cities using Python programming
 
 ### Files used
-Include the files used
+bikeshare.py and three csv files (data)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+learn a lot from udacity course
+also, checked https://docs.python.org/3/index.html for more info about python script
