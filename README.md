@@ -1,6 +1,9 @@
 ### Date created
 15 September 2018
 
+### Location
+Bangkok, Thailand
+
 ### Project Title
 bikeshare project
 

@@ -1,3 +1,5 @@
+## Bike Share Project - Udacity
+
 import time
 import pandas as pd
 import numpy as np
@@ -233,3 +235,5 @@ def main():
 # run the program
 if __name__ == "__main__":
 	main()
+
+## END OF THE PROGRAM ##
