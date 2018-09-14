@@ -80,6 +80,7 @@ def load_data(city, month, day):
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     df['hour'] = df['Start Time'].dt.hour
 
+    # filter data based on month, day
     if month != 'all':
         list_months = ['january', 'february', 'march', 'april', 'may', 'june']
         month = list_months.index(month) + 1
@@ -99,6 +100,7 @@ def preview_dataframe(df):
         row_start = 0
         row_stop = 4
         
+        # prompt user if he/she want to see preview of dataframe
         while True:
             action = input("\nDo you want to see the next five rows of dataframe? (yes or no):\n")
             if action.lower() == 'yes':
@@ -220,6 +222,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        # user defined functions
         preview_dataframe(df)
         time_stats(df)
         station_stats(df)
